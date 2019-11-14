@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1E44EF26232EA794006F7E6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E44EF25232EA794006F7E6C /* AppDelegate.swift */; };
-		1E44EF28232EA794006F7E6C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E44EF27232EA794006F7E6C /* FirstViewController.swift */; };
-		1E44EF2A232EA794006F7E6C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E44EF29232EA794006F7E6C /* SecondViewController.swift */; };
+		1E44EF28232EA794006F7E6C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E44EF27232EA794006F7E6C /* MainViewController.swift */; };
+		1E44EF2A232EA794006F7E6C /* AssistanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E44EF29232EA794006F7E6C /* AssistanceViewController.swift */; };
 		1E44EF2D232EA794006F7E6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E44EF2B232EA794006F7E6C /* Main.storyboard */; };
 		1E44EF2F232EA795006F7E6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E44EF2E232EA795006F7E6C /* Assets.xcassets */; };
 		1E44EF32232EA795006F7E6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E44EF30232EA795006F7E6C /* LaunchScreen.storyboard */; };
@@ -27,10 +27,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1E44EF22232EA794006F7E6C /* PingPongWinTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingPongWinTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E44EF22232EA794006F7E6C /* Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E44EF25232EA794006F7E6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E44EF27232EA794006F7E6C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		1E44EF29232EA794006F7E6C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1E44EF27232EA794006F7E6C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1E44EF29232EA794006F7E6C /* AssistanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistanceViewController.swift; sourceTree = "<group>"; };
 		1E44EF2C232EA794006F7E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E44EF2E232EA795006F7E6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E44EF31232EA795006F7E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 		1E44EF23232EA794006F7E6C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1E44EF22232EA794006F7E6C /* PingPongWinTracker.app */,
+				1E44EF22232EA794006F7E6C /* Pong.app */,
 				1E44EF38232EA796006F7E6C /* PingPongWinTrackerTests.xctest */,
 			);
 			name = Products;
@@ -80,8 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				1E44EF25232EA794006F7E6C /* AppDelegate.swift */,
-				1E44EF27232EA794006F7E6C /* FirstViewController.swift */,
-				1E44EF29232EA794006F7E6C /* SecondViewController.swift */,
+				1E44EF27232EA794006F7E6C /* MainViewController.swift */,
+				1E44EF29232EA794006F7E6C /* AssistanceViewController.swift */,
 				1E44EF2B232EA794006F7E6C /* Main.storyboard */,
 				1E44EF2E232EA795006F7E6C /* Assets.xcassets */,
 				1E44EF30232EA795006F7E6C /* LaunchScreen.storyboard */,
@@ -116,7 +116,7 @@
 			);
 			name = PingPongWinTracker;
 			productName = PingPongWinTracker;
-			productReference = 1E44EF22232EA794006F7E6C /* PingPongWinTracker.app */;
+			productReference = 1E44EF22232EA794006F7E6C /* Pong.app */;
 			productType = "com.apple.product-type.application";
 		};
 		1E44EF37232EA796006F7E6C /* PingPongWinTrackerTests */ = {
@@ -200,9 +200,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E44EF2A232EA794006F7E6C /* SecondViewController.swift in Sources */,
+				1E44EF2A232EA794006F7E6C /* AssistanceViewController.swift in Sources */,
 				1E44EF26232EA794006F7E6C /* AppDelegate.swift in Sources */,
-				1E44EF28232EA794006F7E6C /* FirstViewController.swift in Sources */,
+				1E44EF28232EA794006F7E6C /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +372,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kevinli.PingPongWinTracker;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Pong;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -390,7 +390,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kevinli.PingPongWinTracker;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Pong;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
